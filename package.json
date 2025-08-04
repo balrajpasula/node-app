@@ -1,0 +1,12 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Running tests\" && exit 0",
+    "lint": "echo \"Linting code\" && exit 0",
+    "build": "mkdir -p dist && echo \"Build complete\" > dist/output.txt"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
