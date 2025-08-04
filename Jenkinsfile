@@ -53,7 +53,7 @@ pipeline {
                 subject: "Jenkins Build: ${currentBuild.fullDisplayName}",
                 body: "Build Result: ${currentBuild.currentResult}",
                 recipientProviders: [[$class: 'DevelopersRecipientProvider']],
-                to: 'your-email@example.com'
+                to: 'balrajpasula189@gmail.com'
             )
         }
     }
